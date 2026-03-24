@@ -58,9 +58,9 @@ Every TSANet collaboration case has a unique `token` — a string that is the pr
 
 ## Pages in This Section
 
-* [Prerequisites](prerequisites.md) — what you need before starting
-* [Inbound Setup (ZIS)](inbound-setup.md) — receive TSANet events in Zendesk natively
-* [Outbound Setup (Worker)](outbound-setup.md) — submit collaboration cases from Zendesk
-* [Field Mapping Reference](field-mapping.md) — Zendesk ↔ TSANet field mapping
-* [Testing Checklist](testing-checklist.md) — validate your integration end-to-end
-* [Email-to-Case Bridge](email-to-case.md) — zero-code option for getting started immediately
+* [Prerequisites](documentation/zendesk-connector/prerequisites.md) — what you need before starting
+* [Inbound Setup (ZIS)](documentation/zendesk-connector/inbound-setup.md) — receive TSANet events in Zendesk natively
+* [Outbound Setup (Worker)](documentation/zendesk-connector/outbound-setup.md) — submit collaboration cases from Zendesk
+* [Field Mapping Reference](documentation/zendesk-connector/field-mapping.md) — Zendesk ↔ TSANet field mapping
+* [Testing Checklist](documentation/zendesk-connector/testing-checklist.md) — validate your integration end-to-end
+* [Email-to-Case Bridge](documentation/zendesk-connector/email-to-case.md) — zero-code option for getting started immediately
