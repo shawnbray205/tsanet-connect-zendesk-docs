@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor
+.vscode/
+.idea/
+
+# Node (if Cloudflare Worker dev tools are used locally)
+node_modules/
+.wrangler/
