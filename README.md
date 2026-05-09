@@ -109,10 +109,11 @@ When the ZAF app creates a new outbound collaboration, it writes the returned to
 
 ## Current App Version
 
-**ZAF App: v1.0.28** (May 2026)
+**ZAF App: v1.0.29** (May 2026)
 
 | Version | Key Change |
 |---|---|
+| v1.0.29 | Manifest cleanup before first member distribution: cleared dev-instance Field ID defaults so new installs require members to enter their own field IDs (was previously pre-populated with TSANet's dev instance values, causing silent failures on member installs) |
 | v1.0.28 | TSANet notes mirrored to Zendesk ticket thread as internal comments (`syncNotesToZendesk`) |
 | v1.0.27 | Add Note modal split into Subject + Details fields; eliminates duplication in TSANet web app |
 | v1.0.25 | Adaptive height — compact 44px bar on non-TSANet tickets, full panel on TSANet tickets |

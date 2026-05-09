@@ -1,6 +1,6 @@
 # TSANet Connect — ZAF App Quick Start Guide
 
-**App version:** v1.0.28  
+**App version:** v1.0.29  
 **Last updated:** May 2026  
 **Time to complete:** ~30 minutes
 
@@ -17,7 +17,7 @@ Before starting, make sure you have:
 | Zendesk Admin access | You need Apps & Integrations → Private Apps permission |
 | TSANet API credentials | Email membership@tsanet.org to request a dedicated API user |
 | TSANet environment | BETA (`connect2.tsanet.net`) or PRODUCTION (`connect2.tsanet.org`) |
-| App ZIP file | `tsanet-connect-v1.0.28.zip` |
+| App ZIP file | `tsanet-connect-v1.0.29.zip` |
 
 ---
 
@@ -43,7 +43,7 @@ The app uses four custom ticket fields to store TSANet data. Create each one in 
 1. Go to **Admin Center → Apps and Integrations → Zendesk Support Apps**
 2. Click **Upload private app** (top-right)
 3. Give it a name: `TSANet Connect`
-4. Upload `tsanet-connect-v1.0.28.zip`
+4. Upload `tsanet-connect-v1.0.29.zip`
 5. Click **Upload**
 
 Zendesk will validate the package and show the installation settings screen.
@@ -159,11 +159,11 @@ Zendesk does not support API-based app binary updates. To update:
 
 ---
 
-## Field ID Reference (d3v-tsanet.zendesk.com)
+## Field ID Reference (TSANet Dev Instance — `d3v-tsanet.zendesk.com`)
 
-These are the field IDs for the TSANet dev instance. Your production instance will have different IDs.
+> **For reference only** — these IDs are specific to TSANet's internal dev instance. Your Zendesk account will have entirely different IDs. As of v1.0.29 the install dialog ships with empty defaults so you cannot accidentally inherit these values; you must enter your own.
 
-| Field | ID |
+| Field | TSANet Dev ID (do not copy) |
 |---|---|
 | TSANet Token | `48849323029652` |
 | TSANet Tokens Multi | `48849323042964` |
