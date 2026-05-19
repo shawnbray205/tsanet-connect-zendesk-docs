@@ -212,6 +212,9 @@ jobs:
           FIELD_ID_TOKEN: ${{ secrets.ZENDESK_FIELD_ID_TOKEN }}
         run: |
           NOW=$(date -u +%s)
+          # Uses the /v1/ list endpoint — returns a plain JSON array, parsed by `jq '.[]?'` below.
+          # /v1/ remains supported. The current /v2/collaboration-requests endpoint returns a
+          # paginated {"content":[...]} object instead, which would require `jq '.content[]?'`.
           CASES=$(curl -s \
             -H "Authorization: Bearer $TSANET_JWT" \
             "https://connect2.tsanet.net/v1/collaboration-requests?status=OPEN")
